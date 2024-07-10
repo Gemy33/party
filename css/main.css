@@ -1,0 +1,182 @@
+.home {
+  /* background-image:(url(../image/events-heavenly-header.jpg));
+   */
+   background-image: url(../image/events-heavenly-header.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  
+}
+.home-content span {
+  cursor: pointer;
+  top: 60%;
+  left: 0%;
+}
+.home-content {
+  background-color: rgba(214, 46, 51, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 0px;
+  
+}
+.home-content h2 {
+  font-size: 60px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+  line-height: 72px;
+}
+.home-content p {
+  font-size: 14px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
+  line-height: 24px;
+}
+.sidebar {
+  width: 0px;
+  height: 100vh;
+  background: #000000;
+  display: none;
+}
+.sidebar li 
+{
+  
+  margin-bottom: 10px;
+  padding: 30px 0 0 30px ;
+ 
+}
+.sidebar li:hover a{
+  color: rgba(214, 46, 51, 0.4)
+  ;
+}
+.sidebar li a{
+  text-decoration: none;
+  font-size: 25px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
+  line-height: 38px;
+  color: white;
+  transition: .5s;
+}
+.fa-close{
+  cursor: pointer;
+}
+.fa-close:hover{
+  color: rgba(214, 46, 51, 0.4)
+  !important;
+  transition: .5s;
+}
+@media (max-width:666px) {
+  .home-content span{
+    padding-top: 50px !important;
+  }
+}
+/* @media (max-width:520px) {
+.sidebar{
+  width: 240px;
+
+}
+.home-content{
+  margin-left: 240px;
+} */
+
+
+  
+
+/* @media (max-width:422px) {
+.sidebar{
+  width: 350px;
+}
+.home-content{
+  margin-left: 300px;
+}
+
+
+  
+} */
+/* ========slid down======== */
+
+.slidDown p {
+  background-color: #CCCCCC;
+  margin-bottom: 0;
+  padding: 10px;
+  color: rgb(33, 37, 41)
+  ;
+  display: none;
+  
+}
+.slidDown h3 {
+  background-color: #E68285;
+  margin-bottom: 0;
+  padding: 12px;
+  cursor: pointer;
+  color: white;
+}
+@media (max-width:768px) {
+  .slidDown .width{
+    width: 90% !important;
+  }
+  
+}
+/* ========counter======== */
+.counter {
+  background-image: url(../image/invitation-2508607__340.jpg);
+  /* height: 350px; */
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+  padding: 150px 0;
+  
+  /* background-image: linear-gradient( rgba(255, 0, 0, 0.212), rgba(255, 0, 0, 0.205)),linear-gradient(url()); */
+  
+  
+}
+.counter .inner {
+  padding: 48px;
+  height: 140px;
+  
+}
+
+/* ========contact======== */
+.contact h2{
+  font-size: 35px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 700;
+  line-height: 42px;
+  color: rgb(68, 68, 68)
+  ;
+}
+.contact h3.info{
+  font-size: 18px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 900;
+  line-height: 22px;
+  color: rgb(68, 68, 68)
+  ;
+}
+.contact p{
+  color: gray;
+}
+.detail p {
+  padding-bottom: 10px;
+}
+.icon i {
+  width: 40px;
+  height: 40px;
+  border: solid rgba(0, 0, 0, 0.363) 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  color: rgba(0, 0, 0, 0.459);
+    transition: .5s;
+}
+.icon i:hover {
+  background-color: rgba(255, 0, 0, 0.856);
+  color: white;
+  border: none;
+}
+
+
